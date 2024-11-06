@@ -134,11 +134,9 @@
     object-fit: cover;
     width: 100%;
     filter: blur(5px);
-    
 }
 
 .slider_topo_com_bg{
-    
     text-align: center;    
     position: absolute;
     top: 0;
@@ -147,7 +145,6 @@
 }
 
 .div_content_slider_item_com_bg{
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: center;

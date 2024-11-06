@@ -57,16 +57,22 @@
     min-height: 70px;
     /* flex-wrap: wrap; */
 }
-.div_email_topo a{
+.div_email_topo{
+    gap: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.div_horarios_topo{
+    color: var(--branco-1);
+    margin-top: 12px;
+    font-weight: 600;
 }
 .div_contatos_barra_topo a{
     color: var(--branco-1);
     font-family: var(--rob_bold);
     text-decoration: none;
-    
 }
 .div_contatos_barra_topo svg{    
     margin-right: 6px;
@@ -243,19 +249,22 @@
 .section_sobre{
     background: url('../imgs/linha_esquerda_topo.png') -10px -5px / 120px no-repeat, url('../imgs/linha_direita_topo.png') top right / 120px no-repeat, url('../imgs/linha_direita_base.png') bottom right / 120px no-repeat, url('../imgs/linha_esquerda_base.png') bottom left / 120px no-repeat rgb(245, 245, 247);
 }
-.section_sobre .caixa{
+.section_empresa_sobre{
+    background: url('../imgs/linha_esquerda_base.png') bottom left / 120px no-repeat rgb(255, 255, 255);
+}
+.section_sobre .caixa,
+.section_empresa_sobre .caixa{
     align-items: center;
     padding: 120px 10px;
+    gap: 20px;
 }
 .div_img_sobre,
 .div_conteudo_sobre{
-    width: 100%;    
+    width: 100%;
+    padding: 0 30px;
 }
 .div_img_sobre img{
     border: solid 1px var(--azul-2);
-}
-.div_conteudo_sobre{
-    padding: 0 30px;    
 }
 .titulo_sobre,
 .titulo_sobre_branco{
@@ -680,6 +689,9 @@
 
     /* sobre */
     .section_sobre .caixa{
+        flex-direction: column-reverse;
+    }
+    .section_empresa_sobre .caixa{
         flex-direction: column-reverse;
     }
     /* clientes */
