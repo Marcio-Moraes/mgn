@@ -33,6 +33,7 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,.3);
     text-align: center;
     margin-bottom: 30px;
+    display: none;
 }
 .div_content_slider_item p{
     color: var(--branco-1);

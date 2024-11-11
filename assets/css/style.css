@@ -169,6 +169,7 @@
     padding: 10px;
     border-radius: 10px;
     transition: all ease-in 0.2s ;
+    margin-top: -18px;
 }
 .div_logo_topo a:hover{
     transform: scale(0.9);
