@@ -28,7 +28,7 @@
     letter-spacing: 5px;
     color: var(--branco-1);
     font-family: var(--rob_bold);
-    font-size: 3.6em;
+    font-size: 4.2em;
     text-transform: uppercase;
     text-shadow: 1px 1px 3px rgba(0,0,0,.3);
     text-align: center;
@@ -41,14 +41,15 @@
     text-align: center;
 }
 .btn_slider_topo_home{
-    background-color: var(--azul-2);    
+    background-color: var(--azul-2);
+    background-color: var(--verde-whats);
     color: var(--branco-1);
     text-transform: uppercase;
     padding: 15px 32px;
     text-decoration: none;
     box-shadow: 1px 2px 6px rgba(0,0,0,.3);
     font-size: 20px;
-    border-radius: 36px;
+    /* border-radius: 36px; */
     transition: all 0.3s ease-in-out;
     display: inline-block;
     text-align: center;
