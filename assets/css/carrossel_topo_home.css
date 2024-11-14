@@ -24,7 +24,7 @@
     z-index: 999;
 }
 .div_content_slider_item h2{
-    /* max-width: 680px; */
+    max-width: 1280px;
     letter-spacing: 5px;
     color: var(--branco-1);
     font-family: var(--rob_bold);
