@@ -29,7 +29,6 @@
     color: var(--branco-1);
     font-family: var(--rob_bold);
     font-size: 3.6em;
-    text-transform: capitalize;
     text-shadow: 1px 1px 3px rgba(0,0,0,.3);
     text-align: center;
     margin: 0 30px 30px 30px;
