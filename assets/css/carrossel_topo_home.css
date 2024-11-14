@@ -28,12 +28,12 @@
     letter-spacing: 5px;
     color: var(--branco-1);
     font-family: var(--rob_bold);
-    font-size: 4.2em;
+    font-size: 2.2em;
     text-transform: uppercase;
     text-shadow: 1px 1px 3px rgba(0,0,0,.3);
     text-align: center;
     margin-bottom: 30px;
-    display: none;
+    /* display: none; */
 }
 .div_content_slider_item p{
     color: var(--branco-1);
@@ -165,7 +165,7 @@
         padding: 5px 10px !important;
     }
     .div_content_slider_item h2{
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
     .div_content_slider_item p{
         font-size: 1em;

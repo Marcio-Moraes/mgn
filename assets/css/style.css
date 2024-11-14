@@ -157,19 +157,19 @@
 }
 .div_logo_topo{
     position: relative;
-    width: 120px;
+    width: 160px;
     z-index: 99999999999999;
 }
 .div_logo_topo a{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    /* position: absolute; */
     background-color: var(--branco-1);
     padding: 10px;
     border-radius: 10px;
     transition: all ease-in 0.2s ;
-    margin-top: -18px;
+    /* margin-top: -18px; */
 }
 .div_logo_topo a:hover{
     transform: scale(0.9);
@@ -180,7 +180,10 @@
     z-index: 99999;
     
 }
-
+.div_menu_topo{
+    display: flex;
+    align-items: center;
+}
 .lista_menu_topo{
     display: flex;
     list-style: none;
@@ -247,16 +250,22 @@
     justify-content: center;
     gap: 32px;
 }
+.section_contabilidade_pg{
+    padding: 80px 0;
+}
+.section_contabilidade_pg .div_item_servico{
+    margin: 0 !important;
+}
 
 .div_item_servico{
     background-color: var(--branco-1);
-    padding: 13px 28px;
+    padding: 18px 28px;
     width: 100%;
     max-width: 260px;
     min-height: 240px;
     box-shadow: 1px 2px 30px rgba(0,0,0,.3);
     margin-top: -130px;
-    border-radius: 20px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -309,7 +318,7 @@
 
 /* section_sobre */
 .section_sobre{
-    background: url('../imgs/linha_esquerda_topo.png') -10px -5px / 120px no-repeat, url('../imgs/linha_direita_topo.png') top right / 120px no-repeat, url('../imgs/linha_direita_base.png') bottom right / 120px no-repeat, url('../imgs/linha_esquerda_base.png') bottom left / 120px no-repeat rgb(245, 245, 247);
+    background: url('../imgs/linha_esquerda_topo.png') 0px 0px / 120px no-repeat, url('../imgs/linha_direita_topo.png') top right / 120px no-repeat, url('../imgs/linha_direita_base.png') bottom right / 120px no-repeat, url('../imgs/linha_esquerda_base.png') bottom left / 120px no-repeat rgb(245, 245, 247);
 }
 .section_empresa_sobre{
     background: url('../imgs/linha_esquerda_base.png') bottom left / 120px no-repeat rgb(255, 255, 255);
@@ -579,7 +588,7 @@
     font-size: 20px;
 }
 .lista_contato_pg li span{
-    width: 100%;
+    display: block;
 }
 .lista_contato_pg a{
     text-decoration: none;
@@ -656,6 +665,17 @@
     background-blend-mode: multiply;
     padding: 80px 0;
 }
+.div_menus_contatos_footer .caixa{
+    gap: 30px;
+}
+.div_menu_footer{
+    /* background-color: red; */
+    flex: 1;
+}
+.div_menu_footerg{
+    flex: 1;
+}
+
 .div_direitos_autorais_footer{
     background-color: var(--preto-1);
     color: var(--branco-1);
@@ -680,6 +700,9 @@
 .div_logo_footer:hover img{
     transform: scale(0.9);
 }
+
+
+
 .titulo_col_footer{
     color: var(--branco-1);
     text-transform: uppercase;
@@ -701,13 +724,28 @@
     color: var(--branco-1);
     text-decoration: none;    
     margin-bottom: 12px;
-    display: inline-block;
-    font-size: 14px;
 }
 .lista_menu_footer a:hover{
     color: var(--azul-1);
 }
+.lista_menu_footer a,
+.lista_menu_footer li{
+    display: flex;      
+    gap: 6px;
+    font-size: 14px;
+}
+.lista_menu_footer li span{
+    width: 100%;
+}
 
+.lista_menu_footer svg{
+    color: var(--branco-1);    
+}
+.lista_menu_footer span{
+    color: var(--branco-1);
+    margin-bottom: 10px;
+    display: block;
+}
 
 /* Topo Internas */
 .section_topo_interna{
@@ -769,6 +807,9 @@
     .header .caixa{
         padding: 10px;
     }
+    .div_item_servico{
+        margin: 0 !important;
+    }
     .titulo_col_footer{
         text-align: center;
         margin-top: 40px;
@@ -819,30 +860,17 @@
 
     /* sobre */
     .section_sobre .caixa{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .section_empresa_sobre .caixa{
         flex-direction: column-reverse;
     }
-    /* clientes */
-    .div_img_cliente{    
-        width: 100%;
-        max-width: 120px;
-        height: 120px;
-        padding: 6px;
-    }
 
-    .section_trabalhe_conosco_pg .caixa{
-        flex-direction: column;
+    .div_title_item_servico_home{
+        min-height: 70px;
     }
-
-    /* Blog */
-    .div_grid_blog{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .div_item_post_grid{
-        max-width: 400px;
+    .div_title_item_servico_home h2{
+        min-height: auto !important;
     }
 
     /* contato */
@@ -863,5 +891,9 @@
     }
     .div_logo_footer{
         margin: auto;
+    }
+    .lista_menu_footer a,
+    .lista_menu_footer li{
+        justify-content: center;
     }
 }

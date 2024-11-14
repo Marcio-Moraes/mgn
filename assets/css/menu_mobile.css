@@ -80,7 +80,24 @@
   #menu-menu-principal-1{
     list-style: none;
   }
-  
+  .div_submenu_mobile{
+    background-color: var(--azul-2);
+
+  }
+  .div_submenu_mobile ul{
+    list-style: square;
+    color: var(--branco-1);    
+    padding: 10px 30px;
+    
+  }
+  .div_submenu_mobile ul li a{
+    font-size: 0.9em;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: var(--rob_regular) !important;
+  }
+
+
   @media(max-width: 900px) {
     .overlay a {
       font-size: 18px;
