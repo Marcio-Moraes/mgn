@@ -54,7 +54,6 @@
     text-decoration: none;
     box-shadow: 1px 2px 6px rgba(0,0,0,.3);
     font-size: 20px;
-    /* border-radius: 36px; */
     transition: all 0.3s ease-in-out;
     display: inline-block;
     text-align: center;
@@ -179,5 +178,17 @@
     }
     .owl-carousel .owl-dots{
         bottom: 30px;
+    }
+}
+
+@media(max-width: 680px){
+    .div_content_slider_item{
+        padding: 0 18px;
+    }
+    .div_content_slider_item h2{
+        font-size: 1.4em;
+    }
+    .btn_slider_topo_home{
+        margin-bottom: 20px;
     }
 }

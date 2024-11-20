@@ -808,15 +808,17 @@
 .menu_mobile_icon{
     display: none;
 }
-
+@media(max-width: 1179px){
+    .div_item_servico{
+        margin: 0 !important;
+    }
+}
 
 @media(max-width: 920px){
     .header .caixa{
         padding: 10px;
     }
-    .div_item_servico{
-        margin: 0 !important;
-    }
+    
     .titulo_col_footer{
         text-align: center;
         margin-top: 40px;
