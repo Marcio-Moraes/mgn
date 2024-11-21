@@ -812,6 +812,9 @@
     .div_item_servico{
         margin: 0 !important;
     }
+    .section_contabilidade_home{
+        z-index: 1;
+    }
 }
 
 @media(max-width: 920px){
@@ -859,7 +862,7 @@
 
     /* topo internas mobile */
     .section_topo_interna .caixa{
-        padding: 80px 10px;
+        padding: 80px 40px;
     }
 
     /* titulo internas mobile */
