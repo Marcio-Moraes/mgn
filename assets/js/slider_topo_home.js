@@ -1,16 +1,14 @@
 $(document).ready(function(){
     $(".slider_topo_home").owlCarousel(
         {
-            loop:true,
-            autoplay: true,
+            loop:false,
+            autoplay: false,
             margin:0,
-            nav:true,
-            dots:true,
+            nav:false,
+            dots:false,
             dotsEach: false,
-            items:5,
-            autoplayTimeout:30000,
-            autoplayHoverPause:false,
-            // animateOut: 'fadeOut',
+            items:1,
+            autoplayHoverPause:true,
             responsive:{
                 0:{
                     items:1
@@ -29,13 +27,13 @@ $(document).ready(function(){
   $(document).ready(function(){
     $(".slider_topo_com_bg").owlCarousel(
         {
-            loop:true,
-            autoplay: true,
+            loop:false,
+            autoplay: false,
             margin:0,
-            nav:true,
+            nav:false,
             dots:false,
             dotsEach: false,
-            items:5,
+            items:1,
             autoplayTimeout:30000,
             autoplayHoverPause:false,
             // animateOut: 'fadeOut',
