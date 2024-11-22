@@ -860,6 +860,11 @@
         flex-direction: column;
     }
 
+    /* trabalhe conosco Mobile */
+    .section_trabalhe_conosco_pg .caixa{
+        flex-direction: column;
+    }
+
     /* topo internas mobile */
     .section_topo_interna .caixa{
         padding: 80px 40px;
