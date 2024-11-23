@@ -150,7 +150,7 @@
 .header{
     width: 100%;
     background-color: var(--branco-1);
-    z-index: 999;
+    z-index: 9999 !important;
     position: relative;
 }
 .div_logo_topo{
